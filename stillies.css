@@ -10,12 +10,14 @@ body{
 
 
 
-
+.col{
+margin: 10px;
+}
 
 .mypic{
     display: flex;
     border: 1px;
-    /* width: 100%; */
+    justify-content: end;
     height:300px;
     object-fit: cover;
     /* left:70%; */
